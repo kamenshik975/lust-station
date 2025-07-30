@@ -713,7 +713,7 @@ CrateArmoryShotgun: CrateArmoryWeaponXM1014
 ComputerCargoShuttle: null
 ComputerShuttleCargo: null
 ClothingOuterHardsuitSecurity: ClothingOuterHardsuitSecuritySunrise
-ClothingHeadHelmetHardsuitSecurity: ClothingHeadHelmetHardsuitSecuritySunrise
+## ClothingHeadHelmetHardsuitSecurity: ClothingHeadHelmetHardsuitSecuritySunrise
 AirlockMailGlassLocked: AirlockServiceGlassLocked
 AirlockMailLocked: AirlockServiceLocked
 RandomAnimalSpawner: MobMothroach
