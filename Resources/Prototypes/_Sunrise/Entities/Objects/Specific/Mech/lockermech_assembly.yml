@@ -72,21 +72,25 @@
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 2
+
       - tool: Screwing
         doAfter: 7
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 3
+
       - tool: Welding
         doAfter: 10
         completed:
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 4
+
       - material: Steel
         amount: 5
         doAfter: 3
+
       - material: Glass
         amount: 2
         doAfter: 3
@@ -94,6 +98,7 @@
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 5
+
       - tag: GasTank
         name: step-lockermech-oxygentank
         icon:
@@ -104,10 +109,12 @@
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 6
+
       - material: Steel
         amount: 5
         doAfter: 7
         completed:
+
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 7
@@ -118,6 +125,7 @@
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 8
+
       - tag: DoorElectronics
         name: step-lockermech-door-electronics
         icon:
@@ -128,6 +136,7 @@
         - !type:VisualizerDataInt
           key: "enum.MechAssemblyVisuals.State"
           data: 9
+
       - tag: MicroManipulatorStockPart
         name: step-lockermech-manipulators
         icon:
@@ -198,11 +207,17 @@
           key: "enum.MechAssemblyVisuals.State"
           data: 13
 
+      - tool: Welding
+        doAfter: 1
+
   - node: lockermech
-    entity: MechLocker
     actions:
     - !type:BuildMech
-      mechPrototype: MechLocker
+       mechPrototype: MechLocker
+
+
+
+
 
 # Единый рецепт
 - type: construction
